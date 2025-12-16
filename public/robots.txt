@@ -1,0 +1,11 @@
+# robots.txt para DevPortfolio
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://portifolio-six-rust-72.vercel.app/sitemap.xml
+
+# Disallow admin or private routes if any
+# Disallow: /admin
+# Disallow: /api
