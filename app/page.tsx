@@ -1,15 +1,14 @@
 
 
-import { Header, HeroSection, Footer } from './components';
+import {  HeroSection, ExperienceSection } from './components';
 
 export default function Page() {
   return (
     <>
-      <Header />
       <main>
         <HeroSection />
+        <ExperienceSection />
       </main>
-      <Footer />
     </>
   );
 }

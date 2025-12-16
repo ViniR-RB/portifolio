@@ -7,7 +7,6 @@ export function HeroContent() {
     <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left space-y-8 animate-fade-in-up">
       <StatusBadge />
 
-      {/* Headlines */}
       <div className="space-y-4">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white leading-[1.1] tracking-tight">
           Desenvolvedor <br className="hidden md:block" />

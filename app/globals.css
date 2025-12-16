@@ -6,12 +6,20 @@
   --primary: #135bec;
   --text-light: #101622;
   --text-dark: #f6f6f8;
+  --surface-light: #ffffff;
+  --surface-dark: #1e2736;
+  --border-light: #e7ebf3;
+  --border-dark: #2d3748;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-background-dark: var(--background-dark);
   --color-primary: var(--primary);
+  --color-surface-light: var(--surface-light);
+  --color-surface-dark: var(--surface-dark);
+  --color-border-light: var(--border-light);
+  --color-border-dark: var(--border-dark);
   --font-sans: var(--font-inter-sans);
   --font-mono: var(--font-inter-mono);
 }
@@ -79,4 +87,10 @@ body {
 
 .perspective-1000 {
   perspective: 1000px;
+}
+
+.bg-grid {
+  background-size: 40px 40px;
+  mask-image: linear-gradient(to bottom, transparent, 10%, white, 90%, transparent);
+  -webkit-mask-image: linear-gradient(to bottom, transparent, 5%, white, 95%, transparent);
 }

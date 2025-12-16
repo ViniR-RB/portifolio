@@ -10,7 +10,6 @@ export function HeroSection() {
         backgroundImage: `linear-gradient(135deg, rgba(19, 91, 236, 0.85), rgba(16, 22, 34, 0.95)), url(${Background.src})`
       }}
     >
-      {/* Animated decorative elements */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <div className="absolute top-1/4 left-10 w-64 h-64 bg-primary/20 rounded-full blur-[100px] mix-blend-screen animate-pulse"></div>
         <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-[#0077FF]/10 rounded-full blur-[120px] mix-blend-screen"></div>
@@ -21,7 +20,6 @@ export function HeroSection() {
         <CodeCard />
       </div>
 
-      {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
         <a className="text-white/50 hover:text-white transition-colors" href="#footer">
           <ChevronDown className="w-8 h-8" />
